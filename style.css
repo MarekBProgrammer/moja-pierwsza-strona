@@ -1,0 +1,36 @@
+body{
+    font-family: fantasy;
+    background-color: #666;
+    color: darkblue;
+    text-align: center;
+}
+main{
+    margin: 20px;
+    letter-spacing: 2px;
+    border: lightblue 2px double;
+    height: 50%;
+}
+header{
+    margin: 15px;
+    letter-spacing: 3px;
+    border: lightblue 1px dotted;
+    height: 30%;
+}
+footer{
+    margin:  10px;
+    border: lightblue 1px dashed;
+    height: auto;
+}
+input{
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid violet;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:hover{
+    color:aliceblue;
+    background-color: darkviolet;
+    transition: background 0.3s, color 0.3s;
+}
